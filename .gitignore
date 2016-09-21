@@ -1,0 +1,8 @@
+*~
+\#*\#
+.\#*
+
+/target/
+.nrepl-port
+/.hgignore
+/.lein-repl-history

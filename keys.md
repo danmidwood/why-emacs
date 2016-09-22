@@ -125,3 +125,16 @@ Cider provides navigation through namespaces and symbols (fns/vars)
 
     M-.       ;; Navigate to namespace or symbol under cursor
     M-,       ;; Navigate backwards
+
+
+### Interacting with the repl without using the repl
+
+Since Emacs knows that we're connected to the repl, we can do some cool things
+
+    C-c C-k   ;; Load the buffer into the repl
+
+    C-c C-e   ;; Evaluate the previous sexp inline (showing the result in the
+                 same buffer)
+
+    C-c C-p   ;; Evaluate the previous sexp, and pretty print the result in a
+              ;; new buffer

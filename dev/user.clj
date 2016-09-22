@@ -21,4 +21,6 @@
 
   (c/foo 111)
 
+  (c/something-maybe-pretty 25)
+
   )

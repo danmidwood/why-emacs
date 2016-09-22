@@ -85,3 +85,43 @@ Paredit provides a lot more cool functionality, check out this blog post for
 more info:
 
 http://danmidwood.com/content/2014/11/21/animated-paredit.html
+
+
+## Cider
+
+### Starting, managing, stopping
+
+Clojure Interactive Development Environment that Rocks
+
+    C-c M-j   ;; Start a REPL in the current project
+
+    C-c C-x   ;; Refresh Cider (unload and reload everything)
+
+    C-c C-q   ;; Quit Cider, close the repl connection
+
+### REPL Basics
+
+Type things in REPL, and then hit enter to evaluate them.
+
+    C-c C-z   ;; Switch from clj file to the repl (and back)
+
+    C-c M-p   ;; Copy the preceding form to the repl buffer
+
+    C-c M-n   ;; Set the repl namespace to the current file
+
+    C-c M-n   ;; (Inside the repl buffer) to change to another namespace
+
+    C-c C-d d ;; Print the docs for the current form in a new buffer
+
+    C-c C-d a ;; Search for a fn and display docs, useful if you're not sure of
+              ;; a function name
+
+    C-M-i     ;; Auto complete
+
+
+### Navigation
+
+Cider provides navigation through namespaces and symbols (fns/vars)
+
+    M-.       ;; Navigate to namespace or symbol under cursor
+    M-,       ;; Navigate backwards

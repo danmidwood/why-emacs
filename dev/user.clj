@@ -13,4 +13,12 @@
   ;; dependencies
   (load-project)
 
+  (+ 1 1)
+
+  (doc +)
+
+  (source +)
+
+  (c/foo 111)
+
   )

@@ -14,6 +14,10 @@
                    clojure-mode
                    cider)))
   (require 'package)
+  (setq package-user-dir "~/why-emacs/elpa")
+  (add-to-list 'package-archives
+               '("melpa-stable" . "https://stable.melpa.org/packages/") t)
+  (package-refresh-contents)
   (package-initialize)
   (dolist (p packages)
     (when (not (package-installed-p p))

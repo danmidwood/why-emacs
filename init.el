@@ -57,6 +57,9 @@
 ;;; Clojure
 (let ((clojure-goodies (lambda ()
                          (lisp-stuff)
-                         (company-mode 1))))
+                         (company-mode 1)
+                         (define-key company-mode-map
+                           (kbd "M-TAB")
+                           'company-complete))))
   (add-hook 'clojure-mode-hook clojure-goodies)
   (add-hook 'cider-repl-mode-hook clojure-goodies))

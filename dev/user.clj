@@ -23,4 +23,15 @@
 
   (c/something-maybe-pretty 25)
 
+  (Thread/sleep (* 1000 60 60))
+
+  (-> 10 (+ 20) (* 30) (/ 100))
+
+  (->> 10 (+ 20) (* 30) (-> (/ 100)))
+
+  (def mutable-thing (atom []))
+
+  (swap! mutable-thing conj 10)
+
+
   )

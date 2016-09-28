@@ -141,6 +141,10 @@ Type things in REPL, and then hit enter to evaluate them.
     C-c C-d a ;; Search for a fn and display docs, useful if you're not sure of
               ;; a function name
 
+    C-C C-d j ;; Show javadoc (in browser)
+
+    C-c C-d ? ;; Show doc key bindings
+
     C-M-i     ;; Auto complete
     M-Tab     ;; Auto complete
 
@@ -162,5 +166,37 @@ Since Emacs knows that we're connected to the repl, we can do some cool things
     C-c C-e   ;; Evaluate the previous sexp inline (showing the result in the
                  same buffer)
 
+    C-M-x     ;; Eval defn at point
+
     C-c C-p   ;; Evaluate the previous sexp, and pretty print the result in a
               ;; new buffer
+
+#### Running Tests
+
+    C-c C-t t ;; Run the test under the cursor
+
+    C-c C-t l ;; Run loaded tests
+
+    C-c C-t n ;; Run tests for current namespace (by suffixing `-test`)
+
+    C-c C-t r ;; Re-run failed tests
+
+
+#### Other cool stuff
+
+    C-c C-b   ;; Interupt. Cancel a long running process
+
+    C-c C-m   ;; Macro expand
+
+    C-c M-m   ;; Macro expand, recursive
+
+              ;; Then, in buffer, `m` to expand. `u` to undo
+
+    C-c M-i   ;; Inspect a value
+
+              ;; Then, in buffer, `Return` to inspect sub objects
+              ;; `g` to refresh, `l` to go back up
+
+#### Debugging
+
+    C-u C-M-x ;; To instrument a function

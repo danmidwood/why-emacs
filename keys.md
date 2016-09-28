@@ -30,6 +30,9 @@ Frames, Windows, Buffers, Files
     M-f       ;; Move cursor forward 1 word
     M-b       ;; Move cursor backward 1 word
 
+    C-a       ;; Move cursor to beginning of line
+    C-e       ;; Move cursor to end of line
+
     C-p       ;; Move cursor to previous line
     C-n       ;; Move cursor to next line
 

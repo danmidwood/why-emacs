@@ -100,6 +100,11 @@ Paredit will not allow unbalanced parenthesis
 
     (, [ & {  ;; Add a new sexp, auto adds a closing parameter
 
+    C-)       ;; "Slurp" forwards
+    C-(       ;; "Slurp" backwards
+
+    C-}       ;; "Barf" forwards
+    C-{       ;; "Barf" backwards
 
 Paredit provides a lot more cool functionality, check out this blog post for
 more info:

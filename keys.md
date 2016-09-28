@@ -36,6 +36,7 @@ Frames, Windows, Buffers, Files
 ## Getting help
 
     C-h ?     ;; Show available help information, all help shortcuts start C-h
+    C-h m     ;; describe the current buffer's enabled modes
     C-h f     ;; describe function
     C-h v     ;; describe variable
     C-h k     ;; (followed by some keys) describe what the pressed keys do

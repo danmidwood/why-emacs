@@ -142,6 +142,7 @@ Type things in REPL, and then hit enter to evaluate them.
               ;; a function name
 
     C-M-i     ;; Auto complete
+    M-Tab     ;; Auto complete
 
 
 ### Navigation

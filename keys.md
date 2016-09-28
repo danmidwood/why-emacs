@@ -41,17 +41,7 @@ Frames, Windows, Buffers, Files
     C-h v     ;; describe variable
     C-h k     ;; (followed by some keys) describe what the pressed keys do
 
-## Elisp config
-
-Not important for this talk... but I'll use it to incrementally configure emacs
-
-    C-x C-e   ;; eval the previous s-exp
-    C-M-x     ;; eval the current topmost s-exp
-
 # Clojure
-## Clojure Mode
-
-Provides indentation, syntax highlighting
 
 ## Paredit
 

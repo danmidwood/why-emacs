@@ -36,6 +36,32 @@ Frames, Windows, Buffers, Files
     C-p       ;; Move cursor to previous line
     C-n       ;; Move cursor to next line
 
+## Editing
+
+    C-d       ;; Delete a character forwards
+    Del       ;; Delete a character backwards
+
+    M-d       ;; Delete a word forwards
+    M-Del     ;; Delete a word backwards
+
+    C-k       ;; Kill (delete) to the end of the line
+
+    C-Space   ;; Set a mark / Start a selection of a region
+
+    C-w       ;; Kill (Cut) the selected region
+
+    C-y       ;; Yank (Paste)
+    M-y       ;; Yank (Paste) previous
+
+    M-w       ;; Save (Copy) the selected region
+
+    C-_       ;; Undo
+
+    C-M-\     ;; Indent selected region
+
+    C-x h     ;; Select entire buffer
+
+
 ## Getting help
 
     C-h ?     ;; Show available help information, all help shortcuts start C-h
